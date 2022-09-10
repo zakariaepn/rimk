@@ -1,0 +1,176 @@
+/*!
+Theme Name: Rimk
+Theme URI: https://themeony.com/rimk-wordpress-theme
+Author: Themeony
+Author URI: https://themeony.com/
+Description: Rimk is theme has a beautiful and unique design with a 100% responsive layout and retina-ready. Theme included with 02 Unique Home Pages , 02 Header styles, 02 Footer and 10+ variant inner pages.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: rimk
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready.
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+*/
+
+/*
+    sidebar design 
+
+*/
+
+
+.wp-block-search__inside-wrapper {
+	margin-top: -22px;
+}
+
+.widget_rimk-latest-post-widget {
+    padding: 25px 30px;
+  }
+  .widget_rimk-latest-post-widget ul li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .widget_rimk-latest-post-widget ul li{
+    display: flex;
+    align-items: center;
+  }
+  .widget_rimk-latest-post-widget ul li img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .widget_rimk-latest-post-widget ul li .media-body{
+    flex: 1;
+  }
+  .widget_rimk-latest-post-widget ul li span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--grey);
+  }
+
+  .wp-block-tag-cloud a {
+    display: inline-block;
+    font-size: 18px !important;
+    line-height: 32px;
+    color: var(--grey);
+    padding: 0 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: transparent;
+    text-transform: capitalize;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: var(--white);
+  }
+  
+  .wp-block-tag-cloud a:hover {
+    color: var(--white);
+    background: var(--orange);
+  }
+
+  
+.blog-detail .blog-sidebar .category ul li a {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--deep-blue);
+    text-transform: capitalize;
+  }
+  .widget.widget_rimk-category-widget ul li:not(:last-child) {
+    padding-bottom: 20px;
+  }
+  .widget.widget_rimk-category-widget ul li a i {
+    margin-right: 10px;
+  }
+  
+  .widget.widget_rimk-category-widget ul li a:hover {
+    color: var(--orange);
+  }
+
+  .blog-detail .blog-sidebar .single-item .search-area {
+    position: relative;
+  }
+  .blog-detail .blog-sidebar .single-item label {
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  .blog-detail .blog-sidebar .single-item input {
+    border: 0;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 45px;
+    padding-left: 20px;
+    width: 100%;
+    outline: none;
+  }
+  .blog-detail .blog-sidebar .single-item input::placeholder {
+    color: var(--grey);
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .wp-block-search__inside-wrapper{
+    position: relative;
+  }
+  .wp-block-search__inside-wrapper button {
+    position: absolute;
+    right: 0;
+    padding: 0 20px;
+    height: 45px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: var(--orange);
+    color: var(--white);
+    z-index: 1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+   
+  }
+  
+  .wp-block-search__inside-wrapper button:hover {
+    background: var(--deep-blue);
+  }
+
+  /* comments form design */ 
+
+    /* comment form design  */
+
+   .comment-form-cookies-consent {
+	display: none;
+  }
+  #email-notes {
+	display: none;
+  }
+  .required-field-message {
+	display: none;
+  }
+
+  .avatar.avatar-74.photo {
+	width: 100px;
+	width: 100px !important;
+	height: auto;
+	height: 100px !important;
+	border-radius: 50% !important;
+  }
+
+ 
